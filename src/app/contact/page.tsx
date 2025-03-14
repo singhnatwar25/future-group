@@ -1,16 +1,17 @@
 import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import Image from "next/image"
 
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 bg-[url('/img/bg-business.png')] bg-cover bg-center bg-no-repeat">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 bg-[url(/img/bg-business.png)] bg-cover bg-center bg-no-repeat">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Us</h1>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Get in touch with Future Group. We'd love to hear from you.
+                Get in touch with Future Group. We value your feedback and love to hear from you.
               </p>
             </div>
           </div>
@@ -38,7 +39,7 @@ export default function ContactPage() {
                         singhnatwar20121@gmail.com
                       </a>
                     </p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">We'll respond as soon as possible</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">We will respond as soon as possible</p>
                   </div>
                 </div>
 
@@ -132,7 +133,7 @@ export default function ContactPage() {
               </div>
 
               <div className="rounded-lg overflow-hidden">
-                <img
+                <Image
                   src="/img/map.jpg?height=400&width=600"
                   alt="Map of Future Group Global Offices"
                   className="w-full h-auto object-cover"

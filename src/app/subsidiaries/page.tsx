@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react"
-import Image from 'next/image'
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export default function SubsidiariesPage() {
@@ -51,7 +51,7 @@ export default function SubsidiariesPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 bg-[url('/img/bg-business.png')] bg-cover bg-center bg-no-repea">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 bg-[url(/img/bg-business.png)] bg-cover bg-center bg-no-repea">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 ">

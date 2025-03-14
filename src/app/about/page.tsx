@@ -1,10 +1,10 @@
 import { Award, TrendingUp, Globe, Users } from "lucide-react"
-import Image from 'next/image'
+import Image from "next/image"
 export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-white-50 to-white-10 dark:from-gray-900 dark:to-gray-800 bg-[url('/img/background-dot.svg')] bg-cover bg-center bg-no-repea ">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-white-50 to-white-10 dark:from-gray-900 dark:to-gray-800 bg-[url(/img/background-dot.svg)] bg-cover bg-center bg-no-repeat ">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
@@ -114,12 +114,12 @@ export default function AboutPage() {
                 <p className="text-gray-500 dark:text-gray-400 max-w-[600px]">
                   Natwar Singh is the visionary founder and chairman of Future Group. He has been instrumental in transforming Future Group into a global
                   conglomerate. His strategic vision, business acumen, and commitment to excellence have been the
-                  driving forces behind the group's success.
+                  driving forces behind the group"s success.
                 </p>
                 <p className="text-gray-500 dark:text-gray-400 max-w-[600px]">
                   Under his leadership, Future Group has expanded its footprint across multiple countries and
                   diversified into various sectors. His philosophy of sustainable growth, innovation, and social
-                  responsibility continues to guide the group's operations and strategic decisions.
+                  responsibility continues to guide the group"s operations and strategic decisions.
                 </p>
               </div>
             </div>

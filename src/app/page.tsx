@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from 'next/image'
+import Image from "next/image"
 import { ArrowRight, Building2, Globe, BarChart3, Users } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen" >
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-yellow-50 to-white-100 dark:from-gray-900 dark:to-gray-800 bg-[url('/img/dot2.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-yellow-50 to-white-100 dark:from-gray-900 dark:to-gray-800 bg-[url(/img/dot2.jpg)] bg-cover bg-center bg-no-repeat">
         <div className="container px-4 md:px-6">
           <div className="grid gap-2 lg:grid-cols-2 lg:gap-2 items-center">
             <div className="space-y-4 ">
@@ -17,7 +17,7 @@ export default function Home() {
                 <span className="text-yellow-600">Future</span> Group
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                A global conglomerate with diverse business interests spanning multiple industries. Building tomorrow's
+                A global conglomerate with diverse business interests spanning multiple industries. Building tomorrow
                 solutions today.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -54,7 +54,7 @@ export default function Home() {
 
 
       {/* Story */}
-      <section className="w-full py-12 md:py-24 lg:py-20 bg-[url('/img/bg-business.png')] bg-no-repeat bg-auto bg-center " >
+      <section className="w-full py-12 md:py-24 lg:py-20 bg-[url(/img/bg-business.png)] bg-no-repeat bg-auto bg-center " >
         <div className="container">
           <div className="grid grid-cols-2 gap-4  ml-8">
             <div className="col justify-items-center"><Image src="/img/abouts.png" alt="" width={450} height={450} /></div>
@@ -77,8 +77,8 @@ export default function Home() {
 
 
 
-      <section className="text-center w-full py-12 md:py-24 lg:py-20 bg-white relative bg-[url('/img/bg-business.png')] bg-no-repeat bg-auto bg-center " >
-      <div className="absolute inset-0 bg-[url('/your-background-image.svg')] bg-cover opacity-10"></div>
+      <section className="text-center w-full py-12 md:py-24 lg:py-20 bg-white relative bg-[url(/img/bg-business.png)] bg-no-repeat bg-auto bg-center " >
+      <div className="absolute inset-0 bg-[url(/your-background-image.svg)] bg-cover opacity-10"></div>
       <div className="relative z-10 container mx-auto px-6">
         <h1 className="text-3xl font-semibold text-gray-900">Businesses</h1>
         <div className="w-30 h-1  bg-green-500 mx-auto my-5"></div>

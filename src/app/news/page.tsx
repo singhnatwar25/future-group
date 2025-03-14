@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Head from "next/head"; // For adding meta tags (if using Next.js)
 
 export default function NewsPage() {
@@ -28,7 +29,7 @@ export default function NewsPage() {
     {
       title: "Real Estate Boom in Urban Areas",
       description:
-        "City infrastructure developments are driving a surge in property investments. Explore Future Group's latest ventures in the real estate sector.",
+        "City infrastructure developments are driving a surge in property investments. Explore Future Groups latest ventures in the real estate sector.",
       image: "/img/real1.jpg?height=300&width=500",
       category: "Real Estate",
     },
@@ -54,7 +55,7 @@ export default function NewsPage() {
       </Head>
 
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 bg-[url('/img/bg-business.png')] bg-cover bg-center bg-no-repeat">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 bg-[url(/img/bg-business.png)] bg-cover bg-center bg-no-repeat">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -88,7 +89,7 @@ export default function NewsPage() {
                   </Button>
                 </div>
                 <div className={`mx-auto w-full max-w-[500px] lg:max-w-none ${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                  <img
+                  <Image
                     src={article.image || "/placeholder.svg"}
                     alt={`${article.title} - ${article.category} by Future Group`}
                     className="w-full h-auto object-cover rounded-lg shadow-lg"
