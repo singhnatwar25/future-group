@@ -3,7 +3,6 @@ import Image from "next/image"
 import { ArrowRight, Building2, Globe, BarChart3, Users } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { video } from "framer-motion/client"
 
 export default function Home() {
   return (

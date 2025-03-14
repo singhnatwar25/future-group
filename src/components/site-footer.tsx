@@ -11,7 +11,7 @@ export function SiteFooter() {
               <span className="text-2xl font-bold text-sky-700">Future Group</span>
             </Link>
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              Building tomorrow's solutions today. A global conglomerate with diverse business interests.
+              Building tomorrows solutions today. A global conglomerate with diverse business interests.
             </p>
           </div>
           <div className="space-y-4">
@@ -79,10 +79,10 @@ export function SiteFooter() {
               </li>
               <li>
                 <div className="flex space-x-4">
-                  {/* <Link href="#" className="text-sky-700 hover:text-primary dark:text-gray-400">
+                  <Link href="#" className="text-sky-700 hover:text-primary dark:text-gray-400">
                     <Facebook className="h-5 w-5" />
                     <span className="sr-only">Facebook</span>
-                  </Link> */}
+                  </Link>
                   <Link href="#" className="text-sky-700 hover:text-primary dark:text-gray-400">
                     <Twitter className="h-5 w-5" />
                     <span className="sr-only">Twitter</span>
