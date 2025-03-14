@@ -1,5 +1,6 @@
 import { Award, TrendingUp, Globe, Users } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -101,13 +102,18 @@ export default function AboutPage() {
           </div>
           <div className="mx-auto grid max-w-5xl gap-8 py-12">
             <div className="flex flex-col md:flex-row gap-8 items-center">
-              <Image
-                src="/img/natwar.jpg?height=300&width=300"
-                alt="Natwar Singh"
-                className="rounded-full w-48 h-48 object-cover border-4 border-primary/10"
-                width={300}
-                height={300}
-              />
+              <Link href="https://natwar.vercel.app">
+               
+                  <Image
+                    src="/img/natwar.jpg?height=300&width=300"
+                    alt="Natwar Singh"
+                    className="rounded-full w-48 h-48 object-cover border-4 border-primary/10"
+                    width={300}
+                    height={300}
+                  />
+               
+              </Link>
+
               <div className="space-y-4 text-center md:text-left">
                 <h3 className="text-2xl font-bold">Natwar Singh</h3>
                 <p className="text-primary font-medium">Founder & Chairman</p>
