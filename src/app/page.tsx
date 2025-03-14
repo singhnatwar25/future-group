@@ -55,7 +55,7 @@ export default function Home() {
       {/* Story */}
       <section className="w-full py-12 md:py-24 lg:py-20 bg-[url(/img/bg-business.png)] bg-no-repeat bg-auto bg-center " >
         <div className="container">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ml-8">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 ml-8 mr-8">
             <div className="col justify-items-center"><Image src="/img/abouts.png" alt="" width={450} height={450} /></div>
             <div className="col">
               <h3 className="text-xl font-mono font-bold tracking-tighter">Our Story to INNOVATION</h3>
