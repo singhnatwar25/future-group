@@ -1,5 +1,5 @@
 import { Award, TrendingUp, Globe, Users } from "lucide-react"
-
+import Image from 'next/image'
 export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -18,7 +18,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="mx-auto w-full max-w-[500px] lg:max-w-none">
-              <img
+              <Image
                 src="/img/about-img.jpg?height=400&width=600"
                 alt="Future Group Headquarters"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -101,7 +101,7 @@ export default function AboutPage() {
           </div>
           <div className="mx-auto grid max-w-5xl gap-8 py-12">
             <div className="flex flex-col md:flex-row gap-8 items-center">
-              <img
+              <Image
                 src="/img/natwar.jpg?height=300&width=300"
                 alt="Natwar Singh"
                 className="rounded-full w-48 h-48 object-cover border-4 border-primary/10"

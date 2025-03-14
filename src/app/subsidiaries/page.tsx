@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react"
-
+import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 
 export default function SubsidiariesPage() {
@@ -90,7 +90,7 @@ export default function SubsidiariesPage() {
                   </Button>
                 </div>
                 <div className={`mx-auto w-full max-w-[500px] lg:max-w-none ${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                  <img
+                  <Image
                     src={subsidiary.image || "/placeholder.svg"}
                     alt={subsidiary.name}
                     className="w-full h-auto object-cover rounded-lg shadow-lg"

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from 'next/image'
 import { ArrowRight, Building2, Globe, BarChart3, Users } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -37,7 +38,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto w-full max-w-[800px] lg:max-w-none">
-              <img
+              <Image
                 src="/hero-slider-1.webp?height=600&width=800"
                 alt="Future Group Headquarters"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -56,7 +57,7 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-20 bg-[url('/img/bg-business.png')] bg-no-repeat bg-auto bg-center " >
         <div className="container">
           <div className="grid grid-cols-2 gap-4  ml-8">
-            <div className="col justify-items-center"><img src="img/abouts.png" alt="" width={450} /></div>
+            <div className="col justify-items-center"><Image src="/img/abouts.png" alt="" width={450} height={450} /></div>
             <div className="col">
               <h3 className="text-xl font-mono font-bold tracking-tighter">Our Story to INNOVATION</h3>
               <hr className="w-40 h-1 my-4 bg-yellow-500" />
@@ -88,17 +89,17 @@ export default function Home() {
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 my-12">
           {/* Energy & Utilities */}
           <div className="flex flex-col items-center hover:scale-110">
-            <img src="/img/future-group-green-energy.jpg" alt="Energy & Utilities" className="h-25 w-25 text-blue-500 rounded" />
+            <Image src="/img/future-group-green-energy.jpg" alt="Energy & Utilities" width={100} height={100} className="h-25 w-25 text-blue-500 rounded" />
             <h3 className="mt-2 font-medium text-gray-900">Energy & Utilities</h3>
           </div>
           {/* Transportation & Logistics */}
           <div className="flex flex-col items-center hover:scale-110">
-            <img src="/img/port.jpg" alt="Transportation & Logistics" className="h-25 w-25 text-blue-500 rounded" />
+            <Image src="/img/port.jpg" alt="Transportation & Logistics" width={100} height={100} className="h-25 w-25 text-blue-500 rounded" />
             <h3 className="mt-2 font-medium text-gray-900">Transportation & Logistics</h3>
           </div>
           {/* Incubation */}
           <div className="flex flex-col items-center hover:scale-110 ">
-            <img src="/img/future-group-transmission.jpg" alt="Incubation" className="h-25 w-25 text-blue-500 rounded " />
+            <Image src="/img/future-group-transmission.jpg" width={100} height={100} alt="Incubation" className="h-25 w-25 text-blue-500 rounded " />
             <h3 className="mt-2 font-medium text-gray-900">Incubation</h3>
           </div>
         </div>
@@ -200,7 +201,7 @@ export default function Home() {
               },
             ].map((company, index) => (
               <div key={index} className="flex flex-col overflow-hidden rounded-lg border bg-background shadow-sm">
-                <img
+                <Image
                   src={company.image || "/placeholder.svg"}
                   alt={company.name}
                   width={350}
