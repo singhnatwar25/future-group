@@ -73,7 +73,7 @@ export function SiteFooter() {
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <Phone className="h-4 w-4 text-yellow-500" />
-                <span className="text-sm">+91-22-XXXX-XXXX</span>
+                <span className="text-sm">Contact Us</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <Mail className="h-4 w-4 text-yellow-500" />

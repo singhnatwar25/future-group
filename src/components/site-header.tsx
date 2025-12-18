@@ -45,7 +45,7 @@ export function SiteHeader() {
           <div className="flex items-center gap-6 text-sm text-slate-600">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-yellow-500" />
-              <span className="hidden xl:inline">+91-22-XXXX-XXXX</span>
+              <span className="hidden xl:inline">Contact Us</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-yellow-500" />
@@ -113,7 +113,7 @@ export function SiteHeader() {
             <div className="pt-4 space-y-3">
               <div className="flex items-center gap-3 text-sm text-slate-600">
                 <Phone className="h-4 w-4 text-yellow-500" />
-                <span>+91-22-XXXX-XXXX</span>
+                <span>Contact Us</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-slate-600">
                 <Mail className="h-4 w-4 text-yellow-500" />

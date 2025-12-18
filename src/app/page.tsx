@@ -95,7 +95,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-slate-600 rounded-2xl blur-3xl opacity-30"></div>
                 <Image
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&auto=format"
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop&auto=format"
                   alt="Future Group Global Headquarters"
                   className="relative w-full h-auto object-cover rounded-2xl shadow-2xl"
                   width={800}
@@ -124,9 +124,9 @@ export default function Home() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-3xl opacity-20"></div>
               <Image 
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=500&fit=crop&auto=format" 
-                alt="Future Group Innovation Journey" 
-                width={500} 
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=500&fit=crop&auto=format"
+                alt="Future Group Innovation Journey"
+                width={500}
                 height={500}
                 className="relative rounded-2xl shadow-2xl"
               />
@@ -218,7 +218,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-yellow-500 to-orange-500 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
               <div className="p-8 text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
-                  <Image src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd66?w=40&h=40&fit=crop&auto=format" alt="Energy & Utilities" width={40} height={40} className="rounded-lg" />
+                  <Image src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=40&h=40&fit=crop&auto=format" alt="Energy & Utilities" width={40} height={40} className="rounded-lg" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Energy & Utilities</h3>
                 <p className="text-slate-600 leading-relaxed">
@@ -235,7 +235,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
               <div className="p-8 text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
-                  <Image src="https://images.unsplash.com/photo-1566576912321-d58ddd7a608c5?w=40&h=40&fit=crop&auto=format" alt="Transportation & Logistics" width={40} height={40} className="rounded-lg" />
+                  <Image src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=40&h=40&fit=crop&auto=format" alt="Transportation & Logistics" width={40} height={40} className="rounded-lg" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Transportation & Logistics</h3>
                 <p className="text-slate-600 leading-relaxed">
@@ -412,13 +412,13 @@ export default function Home() {
               {
                 name: "Future Finance",
                 description: "Financial services and investment solutions for businesses and individuals.",
-                image: "https://images.unsplash.com/photo-1563986768494-4dee0bb2f7ec?w=400&h=250&fit=crop&auto=format",
+                image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&auto=format",
                 gradient: "from-green-500 to-emerald-500"
               },
               {
                 name: "Future Energy",
                 description: "Sustainable energy solutions for a greener tomorrow.",
-                image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd66?w=400&h=250&fit=crop&auto=format",
+                image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=250&fit=crop&auto=format",
                 gradient: "from-yellow-500 to-orange-500"
               },
             ].map((company, index) => (

@@ -52,7 +52,7 @@ export default function GlobalLocationsPage() {
                 city: "Mumbai",
                 country: "India",
                 address: "Global Headquarters",
-                phone: "+91-22-XXXX-XXXX",
+                phone: "Contact Available",
                 email: "mumbai@futuregroup.com",
                 type: "Headquarters"
               },
@@ -60,7 +60,7 @@ export default function GlobalLocationsPage() {
                 city: "New York",
                 country: "USA",
                 address: "Financial District",
-                phone: "+1-212-XXX-XXXX",
+                phone: "Contact Available",
                 email: "newyork@futuregroup.com",
                 type: "Regional Office"
               },
@@ -68,7 +68,7 @@ export default function GlobalLocationsPage() {
                 city: "London",
                 country: "UK",
                 address: "Canary Wharf",
-                phone: "+44-20-XXXX-XXXX",
+                phone: "Contact Available",
                 email: "london@futuregroup.com",
                 type: "European HQ"
               },
@@ -76,7 +76,7 @@ export default function GlobalLocationsPage() {
                 city: "Singapore",
                 country: "Singapore",
                 address: "Marina Bay",
-                phone: "+65-XXXX-XXXX",
+                phone: "Contact Available",
                 email: "singapore@futuregroup.com",
                 type: "Asia Pacific HQ"
               },
@@ -84,7 +84,7 @@ export default function GlobalLocationsPage() {
                 city: "Dubai",
                 country: "UAE",
                 address: "Dubai International Financial Centre",
-                phone: "+971-4-XXX-XXXX",
+                phone: "Contact Available",
                 email: "dubai@futuregroup.com",
                 type: "Middle East HQ"
               },
@@ -92,7 +92,7 @@ export default function GlobalLocationsPage() {
                 city: "Tokyo",
                 country: "Japan",
                 address: "Shibuya District",
-                phone: "+81-3-XXXX-XXXX",
+                phone: "Contact Available",
                 email: "tokyo@futuregroup.com",
                 type: "Regional Office"
               }

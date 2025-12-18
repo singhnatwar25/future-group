@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <p className="text-gray-500 dark:text-gray-400">
                 Email: <a href="mailto:singhnatwar20121@gmail.com" className="hover:text-primary">singhnatwar20121@gmail.com</a>
-                <br /> Phone: +91 9610598925
+                <br /> Contact: Available upon request
               </p>
   
               <p className="text-gray-500 dark:text-gray-400">
